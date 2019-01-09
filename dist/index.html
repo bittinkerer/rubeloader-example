@@ -1,0 +1,71 @@
+<html>
+
+<head><title>Stellar Jump</title></head>
+
+<body>
+    <div>
+        <canvas id="canvas" width="720" height="820" style="border: 2px solid #b8b298">
+        </canvas>
+    </div>
+</body>
+
+</html>
+
+<!-- Libs -->
+<script src="../src/lib/Box2d.min.js"></script>
+<script src="../src/lib/loadrube.js"></script>
+<script src="../src/core/init.js"></script>
+<!-- Core Components -->
+<script src="../src/core/common.js"></script>
+<script src="../src/core/gameCommon.js"></script>
+<script src="../src/core/convert.js"></script>
+<script src="../src/core/camera.js"></script>
+<script src="../src/core/gameloop.js"></script>
+<script src="../src/core/sound.js"></script>
+<script src="../src/core/vectorHelper.js"></script>
+<script src="../src/core/rectangle.js"></script>
+<script src="../src/core/entityCategory.js"></script>
+<!-- Game Infra -->
+<script src="../src/gameInfra/gameState.js"></script>
+<script src="../src/gameInfra/continueGameMenu.js"></script>
+<script src="../src/gameInfra/controlsGameState.js"></script>
+<script src="../src/gameInfra/homeGameState.js"></script>
+<script src="../src/gameInfra/playGameState.js"></script>
+<!-- Helpers -->
+<script src="../src/helpers/textWriter.js"></script>
+<script src="../src/helpers/imageHelper.js"></script>
+<script src="../src/helpers/fileHelper.js"></script>
+<!-- User Input -->
+<script src="../src/input/userActions.js"></script>
+<script src="../src/input/userInput.js"></script>
+<script src="../src/input/playInputHandler.js"></script>
+<script src="../src/input/homeInputHandler.js"></script>
+<!-- Drawable Game Objects -->
+<script src="../src/gameObjects/core/drawableObjects/drawableObject.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawableCircle.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawablePoly.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawableTriangle.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawablePhObject.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawableSprite.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawableEdge.js"></script>
+<script src="../src/gameObjects/core/drawableObjects/drawablePlatform.js"></script>
+<!-- Physics Game Objects -->
+<script src="../src/gameobjects/core/physicsObjects/physicsObject.js"></script>
+<script src="../src/gameobjects/core/physicsObjects/physicsCircle.js"></script>
+<script src="../src/gameobjects/core/physicsObjects/physicsPolygon.js"></script>
+<script src="../src/gameobjects/core/physicsObjects/physicsEdge.js"></script>
+<!-- Game Entities -->
+<script src="../src/gameObjects/entities/gameObject.js"></script>
+<!-- Game Components -->
+<script src="../src/gameObjects/components/bar.js"></script>
+<!--Handlers-->
+<script src="../src/handlers/deadBodiesHandler.js"></script>
+<script src="../src/handlers/collisions/collisionHandler.js"></script>
+<script src="../src/handlers/explosions/explosionHandler.js"></script>
+<script src="../src/handlers/collisions/lavaBeginContactResolver.js"></script>
+<script src="../src/handlers/shotHandler.js"></script>
+<script src="../src/handlers/collisions/asteroidBeginContactResolver.js"></script>
+<script src="../src/handlers/collisions/bulletBeginContactResolver.js"></script>
+<script src="../src/handlers/gameObjectHandler.js"></script>
+<!-- Main -->
+<script src="../src/main.js"></script>
